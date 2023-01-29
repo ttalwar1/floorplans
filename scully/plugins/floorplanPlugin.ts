@@ -1,31 +1,31 @@
-const { routeSplit, registerPlugin, httpGet } = require('@scullyio/scully');
+// const { routeSplit, registerPlugin, httpGet } = require('@scullyio/scully');
 
 
-const floorplanPlugin = async (route, config) => {
-  const { createPath } = routeSplit(route);
-  const list = await httpGet(
-    'https://hhcwebapi.azurewebsites.net/api/floorplans'
-  );
-  const handledRoutes = [];
-  for (let item of list) {
-    const blogData = await httpGet(
-      `https://hhcwebapi.azurewebsites.net/api/floorplans/${item.id}`
-    );
-    // const blogData = await httpget(`http://localhost:4200/assets/news/${item.id}.json`);
-    handledRoutes.push({
-      route: createPath(item.floorplanId, blogData.seriesName),
-      title: blogData.seriesName,
-      description: blogData.modelName,
-    });
-  }
-};
-
-
-
+// const floorplanPlugin = async (route, config) => {
+//   const { createPath } = routeSplit(route);
+//   const list = await httpGet(
+//     'https://hhcwebapi.azurewebsites.net/api/floorplans'
+//   );
+//   const handledRoutes = [];
+//   for (let item of list) {
+//     const blogData = await httpGet(
+//       `https://hhcwebapi.azurewebsites.net/api/floorplans/${item.id}`
+//     );
+//     // const blogData = await httpget(`http://localhost:4200/assets/news/${item.id}.json`);
+//     handledRoutes.push({
+//       route: createPath(item.floorplanId, blogData.seriesName),
+//       title: blogData.seriesName,
+//       description: blogData.modelName,
+//     });
+//   }
+// };
 
 
 
-registerPlugin('router', 'myPlugin', floorplanPlugin);
+
+
+
+// registerPlugin('router', 'myPlugin', floorplanPlugin);
 
 // const { httpGetJson, registerPlugin, routeSplit } = require('@scullyio/scully');
 

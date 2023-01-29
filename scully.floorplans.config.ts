@@ -1,26 +1,39 @@
-import { httpGetJson, registerPlugin, ScullyConfig } from '@scullyio/scully';
+// import { httpGetJson, registerPlugin, ScullyConfig } from '@scullyio/scully';
 import '@scullyio/scully-plugin-puppeteer';
 
-// scully.config.ts
-// https://hhcwebapi.azurewebsites.net/api
+// // scully.config.ts
+// // https://hhcwebapi.azurewebsites.net/api
 
+
+
+// export const config: ScullyConfig = {
+//   routes: {
+//     'floorplans/:floorplanId': {
+//       type: 'json',
+//       postRenderers: [],
+//       modelName: {
+//         url: 'https://hhcwebapi.azurewebsites.net/api/floorplans',
+//         property: 'modelName',
+//       },
+//     },
+//   },
+// };
+
+import { ScullyConfig } from '@scullyio/scully'
+// scully.config.ts
 export const config: ScullyConfig = {
+  // Add the following to your file
   routes: {
-    'floorplans/:floorplanId/:modelName': {
+    '/floorplans/:modelName': {
       type: 'json',
-      postRenderers: [],
-      floorplanId: {
-        url: 'https://hhcwebapi.azurewebsites.net/api/floorplans',
-        property: 'floorplanId',
-      },
       modelName: {
-        url:
-          'https://hhcwebapi.azurewebsites.net/api/floorplans/${floorplanId}',
+        url: 'https://hhcwebapi.azurewebsites.net/api/floorplans',
         property: 'modelName',
       },
     },
   },
 };
+
 
 // export const config: ScullyConfig = {
 //   routes: {

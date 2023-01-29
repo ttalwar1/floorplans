@@ -28,10 +28,8 @@ export class FloorplansComponent implements OnInit {
     //   .subscribe((floorplans: Floorplan[]) => (this.floorplans = floorplans));
 
     // const floorplan$ = this.http.get<any>(
-    //   `${environment.API.BASE_URL}/floorplans`
+    //   `${environment.API.BASE_URL}/getbymodelname`
     // ); 
-
-
 
     
     // useScullyTransferState<T>(name: string, originalState: Observable<T>): Observable<T>
