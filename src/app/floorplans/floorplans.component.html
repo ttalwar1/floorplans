@@ -1,0 +1,17 @@
+<a
+  *ngFor="let d of floorplans"
+  class="card"
+  routerLink="/floorplans/{{ d.floorplanId }}/{{ d.modelName }} "
+
+>
+  <span
+    >{{ d.floorplanId }} {{ d.modelName }} {{ d.seriesName }}
+
+    <img width="12%" [src]="d.thumbnailUrl" />
+  </span>
+  <!-- floorplanbox would go here -->
+</a>
+
+<!-- routerLink="/floorplans/{{ d.seriesName }}/{{ d.modelName }} " -->
+<!-- routerLink="/floorplans/{{ d.floorplanId }}/{{ d.modelName }} " -->
+<!-- routerLink="/floorplans/{{ d.floorplanId }}" -->

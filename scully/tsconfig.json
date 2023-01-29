@@ -1,0 +1,21 @@
+//below from scully.io site and not sure its needed some some are dated entries
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "importHelpers": false,
+    "lib": ["ES2022", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es2022",
+    "types": ["node"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "typeRoots": ["../node_modules/@types"],
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["./**/*spec.ts"]
+}
+
+//changed lib and target from es2018 to es2022 to match other tsconfig.json

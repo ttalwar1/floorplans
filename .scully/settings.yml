@@ -1,0 +1,11 @@
+identifier: l6d647y4e4v16e3a
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: floorplans
+homeFolder: /Users/ttalwar/angular-training/floorplans
+distFolder: dist/floorplans
+outDir: /Users/ttalwar/angular-training/floorplans/dist/static/
+handle404: ''
+allowErrorCollect: true
