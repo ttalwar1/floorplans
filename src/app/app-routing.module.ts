@@ -17,7 +17,7 @@ const routes: Routes = [
       import('./floorplans/floorplans.module').then((m) => m.FloorplansModule),
   },
   {
-    path: 'floorplans/:floorplanId/:modelName',
+    path: 'floorplans/:floorplanId/:seriesName/:modelName',
     loadChildren: () =>
       import('./floorplan/floorplan.module').then((m) => m.FloorplanModule),
   },

@@ -1,7 +1,7 @@
 <a
   *ngFor="let d of floorplans"
   class="card"
-  routerLink="/floorplans/{{ d.floorplanId }}/{{ d.modelName }}"
+  routerLink="/floorplans/{{ d.floorplanId }}/{{d.seriesName}}/{{ d.modelName }}"
 >
   <span
     >{{ d.floorplanId }} {{ d.modelName }} {{ d.seriesName }}

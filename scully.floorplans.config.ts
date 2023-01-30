@@ -1,17 +1,13 @@
+const { RouteTypes } = require('@scullyio/scully');
 
-
-const {RouteTypes} = require('@scullyio/scully');
-
-const {News} = require('./scully/plugins/floorplanPlugin');
+const { Floorplan } = require('./scully/plugins/floorplanPlugin');
 
 exports.config = {
   projectRoot: './src/app',
   routes: {
-    '/floorplans/:floorplanId/:modelName': {
-      type: News,
+    '/floorplans/:floorplanId/:seriesName/:modelName': {
+      type: Floorplan,
       url: 'https://hhcwebapi.azurewebsites.net/api/floorplans',
     },
-  }
+  },
 };
-
-
