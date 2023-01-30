@@ -35,16 +35,32 @@ export class FloorplanComponent {
 
 
     //branch A: code below works with scully and path of 'floorplans/:floorplanId',
-    // const mobilehomeAPI$ = this.route.parent?.params.pipe(
+    const mobilehomeAPI$ = this.route.parent?.params.pipe(
+      pluck('floorplanId'),
+      switchMap((id) =>
+        this.http.get<any>(`${environment.API.BASE_URL}/floorplans/${id}`)
+      )
+    );
+
+    const mobilehome$ = this.transferState.useScullyTransferState(
+      'floorplan',
+      mobilehomeAPI$ as any
+    );
+
+    mobilehome$?.subscribe((res) => {
+      this.mobilehome = res;
+      this.description = this.mobilehome.floorplanCaption;
+      this.url = this.mobilehome.thumbnailUrl;
+    });
+
+    // branch B: uncomment out below and works w/o scully transferstate
+    // const mobilehome$ = this.route.parent?.params.pipe(
     //   pluck('floorplanId'),
     //   switchMap((id) =>
-    //     this.http.get<any>(`${environment.API.BASE_URL}/floorplans/${id}`)
+    //     this.http.get<any>(
+    //       `${environment.API.BASE_URL}/floorplans/${id}`
+    //     )
     //   )
-    // );
-
-    // const mobilehome$ = this.transferState.useScullyTransferState(
-    //   'floorplan',
-    //   mobilehomeAPI$ as any
     // );
 
     // mobilehome$?.subscribe((res) => {
@@ -52,22 +68,6 @@ export class FloorplanComponent {
     //   this.description = this.mobilehome.floorplanCaption;
     //   this.url = this.mobilehome.thumbnailUrl;
     // });
-
-    // branch B: uncomment out below and works w/o scully on path: 'floorplans/:seriesName/:modelName'
-    const mobilehome$ = this.route.parent?.params.pipe(
-      pluck('modelName'),
-      switchMap((id) =>
-        this.http.get<any>(
-          `${environment.API.BASE_URL}/floorplans/getbymodelname/${id}`
-        )
-      )
-    );
-
-    mobilehome$?.subscribe((res) => {
-      this.mobilehome = res;
-      this.description = this.mobilehome[0].floorplanCaption;
-      this.url = this.mobilehome.thumbnailUrl;
-    });
 
 
 

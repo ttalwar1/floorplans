@@ -1,12 +1,11 @@
-    //to toggle pathnames, need to change:
-    //1.path below to use :floorplanId or :modelName
-    //2.floorplans.component.html routerlink to update path
-    //3.floorplan.component.ts code as marked for API call
-    //4.use localhost:1668 for scully or localhost:4200 for Angular w/o scully
+//to toggle pathnames, need to change:
+//1.path below to use :floorplanId or :modelName
+//2.floorplans.component.html routerlink to update path
+//3.floorplan.component.ts code as marked for API call
+//4.use localhost:1668 for scully or localhost:4200 for Angular w/o scully
 
-    // path: 'floorplans/:seriesName/:modelName',
-    //path: 'floorplans/:floorplanId',
-
+// path: 'floorplans/:seriesName/:modelName',
+//path: 'floorplans/:floorplanId',
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -18,7 +17,7 @@ const routes: Routes = [
       import('./floorplans/floorplans.module').then((m) => m.FloorplansModule),
   },
   {
-    path: 'floorplans/:modelName',
+    path: 'floorplans/:floorplanId/:modelName',
     loadChildren: () =>
       import('./floorplan/floorplan.module').then((m) => m.FloorplanModule),
   },

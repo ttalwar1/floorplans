@@ -1,3 +1,20 @@
+const { httpGetJson, registerPlugin, routeSplit } = require('@scullyio/scully');
+const News = 'news';
+const newsPlugin = async (route, config) => {
+    const list = await httpGetJson(config.url);
+    const { createPath } = routeSplit(route);
+    const handledRoutes = [];
+    for (let item of list) {
+        handledRoutes.push({
+            route: createPath(item.floorplanId, item.modelName)
+        });
+    }
+    return handledRoutes;
+};
+// no validation implemented
+const newsPluginValidator = async (conf) => [];
+registerPlugin('router', News, newsPlugin);
+exports.News = News;
 // const { routeSplit, registerPlugin, httpGet } = require('@scullyio/scully');
 // const floorplanPlugin = async (route, config) => {
 //   const { createPath } = routeSplit(route);
