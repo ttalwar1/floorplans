@@ -6,6 +6,6 @@ hostName: localhost
 projectName: floorplans
 homeFolder: /Users/ttalwar/angular-training/floorplans
 distFolder: dist/floorplans
-outDir: /Users/ttalwar/angular-training/floorplans/dist/static/
+outDir: /Users/ttalwar/angular-training/floorplans/dist/static
 handle404: ''
 allowErrorCollect: true

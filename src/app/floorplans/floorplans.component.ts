@@ -29,9 +29,8 @@ export class FloorplansComponent implements OnInit {
 
     // const floorplan$ = this.http.get<any>(
     //   `${environment.API.BASE_URL}/getbymodelname`
-    // ); 
+    // );
 
-    
     // useScullyTransferState<T>(name: string, originalState: Observable<T>): Observable<T>
     // with below, scully will provide data from local cache instead of making the API call
 
@@ -46,8 +45,5 @@ export class FloorplansComponent implements OnInit {
       this.floorplans = res;
       console.log(this.floorplans);
     });
-
-
-
   }
 }
