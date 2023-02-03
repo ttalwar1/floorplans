@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ScullyLibModule } from '@scullyio/ng-lib';
 import { pluck, switchMap, map } from 'rxjs/operators';
-import { environment } from './../../environments/environment.prod';
+import { environment } from './../../environments/environment';
 import { Floorplan } from './../models/floorplan';
 import { TransferStateService } from '@scullyio/ng-lib';
 
@@ -38,7 +38,7 @@ export class FloorplanComponent {
     const mobilehomeAPI$ = this.route.parent?.params.pipe(
       pluck('floorplanId'),
       switchMap((id) =>
-        this.http.get<any>(`${environment.API.BASE_URL}/floorplans/${id}`)
+        this.http.get<any>(`${environment.API.BASE_URL}/${environment.fp}/${id}`)
       )
     );
 

@@ -3,7 +3,7 @@ import { FloorplanService } from './../services/floorplan.service';
 import { Floorplan } from '../models/floorplan';
 import { HttpClient } from '@angular/common/http';
 import { TransferStateService } from '@scullyio/ng-lib';
-import { environment } from './../../environments/environment.prod';
+import { environment } from './../../environments/environment';
 
 @Component({
   selector: 'app-floorplans',
@@ -37,7 +37,7 @@ export class FloorplansComponent implements OnInit {
     const floorplan$ = this.transferState.useScullyTransferState<Floorplan[]>(
       'floorplans',
       this.http.get<Floorplan[]>(
-        `${environment.API.BASE_URL}/floorplans`
+        `${environment.API.BASE_URL}/${environment.fp}`
       ) as any
     );
 

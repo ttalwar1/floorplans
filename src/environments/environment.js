@@ -9,5 +9,6 @@ exports.environment = {
     API: {
         BASE_URL: 'https://hhcwebapi.azurewebsites.net/api',
     },
+    fp: 'scullyfloorplans'
 };
 //# sourceMappingURL=environment.js.map

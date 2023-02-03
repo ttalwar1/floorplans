@@ -11,7 +11,7 @@ exports.config = {
   routes: {
     '/floorplans/:floorplanId/:seriesName/:modelName': {
       type: Floorplan,
-      url: `${environment.API.BASE_URL}/floorplans`,
+      url: `${environment.API.BASE_URL}/${environment.fp}`,
     },
   },
 };

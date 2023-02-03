@@ -3,4 +3,5 @@ export const environment = {
     API: {
         BASE_URL: 'https://hhcwebapi.azurewebsites.net/api',
     },
+    fp: 'floorplans'
 };
