@@ -7,5 +7,7 @@ export const environment = {
   API: {
     BASE_URL: 'https://hhcwebapi.azurewebsites.net/api',
   },
-  fp: 'scullyfloorplans'
+  fp: 'scullyfloorplans',
 };
+//api with floorplans end point returns spaces
+//api with scullyfloorplans replaces spaces with '-'
