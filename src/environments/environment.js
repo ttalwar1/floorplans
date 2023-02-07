@@ -9,6 +9,9 @@ exports.environment = {
     API: {
         BASE_URL: 'https://hhcwebapi.azurewebsites.net/api',
     },
-    fp: 'floorplans'
+    fp: 'scullyfloorplans',
 };
+//environment variable fp is used to toggle which API I call
+//api with floorplans end point returns spaces
+//api with scullyfloorplans replaces spaces with '-'
 //# sourceMappingURL=environment.js.map

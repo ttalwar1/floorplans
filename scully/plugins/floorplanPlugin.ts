@@ -1,9 +1,8 @@
+
 const { httpGetJson, registerPlugin, routeSplit } = require('@scullyio/scully');
-
 const Floorplan = 'floorplan';
-
 const floorplanPlugin = async (route, config) => {
-  const list = await httpGetJson(config.url);
+const list = await httpGetJson(config.url);
   const { createPath } = routeSplit(route);
   const handledRoutes = [];
   for (let item of list) {

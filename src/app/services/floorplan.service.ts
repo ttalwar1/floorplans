@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable, of } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { catchError, tap } from 'rxjs/operators';
 import { Floorplan } from './../models/floorplan';
 import { environment } from './../../environments/environment.prod';
@@ -50,6 +51,25 @@ export class FloorplanService {
         }),
         catchError(this.handleError<Floorplan[]>('getFloorplan'))
       );
+  }
+
+  //so we can build static path with spaces replaced with
+  getDashedFloorplans(): Observable<Floorplan[]> {
+    return this.http.get<Floorplan[]>(
+      `${environment.API.BASE_URL}/${environment.fp}`
+    ).pipe(
+      map((data: Floorplan[]) => {
+        return data.map((floorplan) => ({
+          seriesName: floorplan.seriesName.trim().replace(/\s+/g, '-'), //get rid of spaces for pathname
+          modelName: floorplan.modelName.trim().replace(/\s+/g, '-'),
+          floorplanId: floorplan.floorplanId,
+          floorplanCaption: floorplan.floorplanCaption,
+          floorplanDescription: floorplan.floorplanDescription,
+          floorplanUrl: floorplan.floorplanUrl,
+          thumbnailUrl: floorplan.thumbnailUrl,
+        }));
+      })
+    );
   }
 
   /** filter for onDisplay=TRUE or FALSE */

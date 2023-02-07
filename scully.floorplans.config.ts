@@ -1,8 +1,6 @@
 import { environment } from './src/environments/environment';
 const { RouteTypes } = require('@scullyio/scully');
 
-const { Floorplan } = require('./scully/plugins/floorplanPlugin'); //custom plugin inside scully/plugins
-
 import '@scullyio/scully-plugin-puppeteer';
 
 exports.config = {
@@ -18,3 +16,4 @@ exports.config = {
 
 // url: 'https://hhcwebapi.azurewebsites.net/api/scullyfloorplans',
 // url: 'https://hhcwebapi.azurewebsites.net/api/floorplans',
+// url: `${environment.API.BASE_URL}/${environment.fp}`,
