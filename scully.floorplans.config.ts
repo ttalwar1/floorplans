@@ -1,6 +1,8 @@
 import { environment } from './src/environments/environment';
 const { RouteTypes } = require('@scullyio/scully');
 
+const { Floorplan } = require('./scully/plugins/floorplanPlugin'); //custom plugin inside scully/plugins
+
 import '@scullyio/scully-plugin-puppeteer';
 
 exports.config = {

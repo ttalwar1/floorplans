@@ -1816,3 +1816,12 @@ Route "/floorplans/80/Canyon View/2844A" not provided by angular app
 
 
 
+----------------------------------Using stored unhandled routes!.----------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************   To discover new routes in the angular app use "npx scully --scanRoutes"
+
+
+
+
