@@ -1825,3 +1825,315 @@ Route "/floorplans/80/Canyon View/2844A" not provided by angular app
 
 
 
+----------------------------------   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************Using stored unhandled routes!.
+
+
+
+
+----------------------------------   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************Using stored unhandled routes!.
+
+
+
+
+----------------------------------Using stored unhandled routes!.NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************----------------------------------   To discover new routes in the angular app use "npx scully --scanRoutes"
+
+
+
+
+--------------------------------------------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"
+
+
+
+
+----------------------------------   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************Using stored unhandled routes!.
+
+
+
+
+handleUnknownRoute: "/floorplans/19/Majestic/9584%20Everest%20Triple%20Wide", 404:""
+handleUnknownRoute: "/floorplans/27/Marlette%20Special/2868", 404:""
+Route "/floorplans/19/Majestic/9584 Everest Triple Wide" not provided by angular appRoute "/floorplans/27/Marlette Special/2868" not provided by angular app
+
+handleUnknownRoute: "/floorplans/37/Columbia%20River/2017", 404:""
+Route "/floorplans/37/Columbia River/2017" not provided by angular app
+handleUnknownRoute: "/floorplans/39/Columbia%20River/2021", 404:""
+handleUnknownRoute: "/floorplans/58/Columbia%20River/2005", 404:""
+Route "/floorplans/39/Columbia River/2021" not provided by angular app
+Route "/floorplans/58/Columbia River/2005" not provided by angular app
+handleUnknownRoute: "/floorplans/54/Columbia%20River%20/2028", 404:""
+handleUnknownRoute: "/floorplans/44/Majestic%20/9585%20McKinley", 404:""
+handleUnknownRoute: "/floorplans/57/Columbia%20River/2004", 404:""
+handleUnknownRoute: "/floorplans/38/Columbia%20River/2019", 404:""
+Route "/floorplans/57/Columbia River/2004" not provided by angular app
+Route "/floorplans/44/Majestic /9585 McKinley" not provided by angular app
+handleUnknownRoute: "/floorplans/56/Columbia%20River/2003", 404:""
+handleUnknownRoute: "/floorplans/43/Columbia%20River/2025", 404:""
+Route "/floorplans/54/Columbia River /2028" not provided by angular app
+handleUnknownRoute: "/floorplans/59/Columbia%20River/2006", 404:""
+Route "/floorplans/43/Columbia River/2025" not provided by angular appRoute "/floorplans/56/Columbia River/2003" not provided by angular appRoute "/floorplans/38/Columbia River/2019" not provided by angular app
+
+
+handleUnknownRoute: "/floorplans/60/Columbia%20River/2007", 404:""
+handleUnknownRoute: "/floorplans/62/Columbia%20River/2010", 404:""
+Route "/floorplans/60/Columbia River/2007" not provided by angular app
+Route "/floorplans/59/Columbia River/2006" not provided by angular app
+handleUnknownRoute: "/floorplans/67/Summit%20Series/3066A", 404:""
+handleUnknownRoute: "/floorplans/64/Marlette%20Special/3070", 404:""
+handleUnknownRoute: "/floorplans/61/Columbia%20River/2009", 404:""
+handleUnknownRoute: "/floorplans/68/Summit%20Series/2860A", 404:""
+Route "/floorplans/61/Columbia River/2009" not provided by angular app
+handleUnknownRoute: "/floorplans/70/Summit%20Series/2848A", 404:""
+Route "/floorplans/68/Summit Series/2860A" not provided by angular app
+Route "/floorplans/70/Summit Series/2848A" not provided by angular app
+Route "/floorplans/62/Columbia River/2010" not provided by angular appRoute "/floorplans/64/Marlette Special/3070" not provided by angular app
+
+Route "/floorplans/67/Summit Series/3066A" not provided by angular app
+handleUnknownRoute: "/floorplans/66/Summit%20Series/4056A", 404:""
+handleUnknownRoute: "/floorplans/69/Summit%20Series/2856A", 404:""
+Route "/floorplans/66/Summit Series/4056A" not provided by angular app
+Route "/floorplans/69/Summit Series/2856A" not provided by angular apphandleUnknownRoute: "/floorplans/71/Summit%20Series/2456A", 404:""
+
+handleUnknownRoute: "/floorplans/76/Canyon%20View/2860A", 404:""
+handleUnknownRoute: "/floorplans/75/Canyon%20View/2872A", 404:""
+handleUnknownRoute: "/floorplans/72/Summit%20Series/2444A", 404:""
+Route "/floorplans/75/Canyon View/2872A" not provided by angular app
+Route "/floorplans/72/Summit Series/2444A" not provided by angular app
+handleUnknownRoute: "/floorplans/73/Summit%20Series%20/2044A", 404:""
+Route "/floorplans/71/Summit Series/2456A" not provided by angular app
+handleUnknownRoute: "/floorplans/74/Canyon%20View%20/1448A", 404:""
+Route "/floorplans/73/Summit Series /2044A" not provided by angular app
+Route "/floorplans/74/Canyon View /1448A" not provided by angular app
+Route "/floorplans/76/Canyon View/2860A" not provided by angular app
+handleUnknownRoute: "/floorplans/77/Canyon%20View%20/2856D", 404:""
+handleUnknownRoute: "/floorplans/78/Canyon%20View/2856A", 404:""
+Route "/floorplans/77/Canyon View /2856D" not provided by angular app
+handleUnknownRoute: "/floorplans/80/Canyon%20View/2844A", 404:""
+handleUnknownRoute: "/floorplans/79/Canyon%20View/2848A", 404:""
+Route "/floorplans/78/Canyon View/2856A" not provided by angular app
+Route "/floorplans/79/Canyon View/2848A" not provided by angular app
+Route "/floorplans/80/Canyon View/2844A" not provided by angular app
+----------------------------------Using stored unhandled routes!.NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************----------------------------------   To discover new routes in the angular app use "npx scully --scanRoutes"
+
+
+
+
+----------------------------------   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************Using stored unhandled routes!.
+
+
+
+
+--------------------------------------------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"
+
+
+
+
+handleUnknownRoute: "/floorplans/19/Majestic/9584%20Everest%20Triple%20Wide", 404:""
+handleUnknownRoute: "/floorplans/27/Marlette%20Special/2868", 404:""
+Route "/floorplans/19/Majestic/9584 Everest Triple Wide" not provided by angular appRoute "/floorplans/27/Marlette Special/2868" not provided by angular app
+
+handleUnknownRoute: "/floorplans/37/Columbia%20River/2017", 404:""
+Route "/floorplans/37/Columbia River/2017" not provided by angular app
+handleUnknownRoute: "/floorplans/38/Columbia%20River/2019", 404:""
+handleUnknownRoute: "/floorplans/44/Majestic%20/9585%20McKinley", 404:""
+handleUnknownRoute: "/floorplans/56/Columbia%20River/2003", 404:""
+handleUnknownRoute: "/floorplans/57/Columbia%20River/2004", 404:""
+Route "/floorplans/44/Majestic /9585 McKinley" not provided by angular app
+Route "/floorplans/57/Columbia River/2004" not provided by angular appRoute "/floorplans/56/Columbia River/2003" not provided by angular app
+
+Route "/floorplans/38/Columbia River/2019" not provided by angular app
+handleUnknownRoute: "/floorplans/43/Columbia%20River/2025", 404:""
+handleUnknownRoute: "/floorplans/39/Columbia%20River/2021", 404:""
+Route "/floorplans/39/Columbia River/2021" not provided by angular app
+handleUnknownRoute: "/floorplans/54/Columbia%20River%20/2028", 404:""
+Route "/floorplans/43/Columbia River/2025" not provided by angular app
+Route "/floorplans/54/Columbia River /2028" not provided by angular app
+handleUnknownRoute: "/floorplans/58/Columbia%20River/2005", 404:""
+handleUnknownRoute: "/floorplans/62/Columbia%20River/2010", 404:""
+handleUnknownRoute: "/floorplans/61/Columbia%20River/2009", 404:""
+Route "/floorplans/58/Columbia River/2005" not provided by angular app
+handleUnknownRoute: "/floorplans/59/Columbia%20River/2006", 404:""
+Route "/floorplans/62/Columbia River/2010" not provided by angular apphandleUnknownRoute: "/floorplans/60/Columbia%20River/2007", 404:""
+
+Route "/floorplans/59/Columbia River/2006" not provided by angular appRoute "/floorplans/60/Columbia River/2007" not provided by angular app
+
+Route "/floorplans/61/Columbia River/2009" not provided by angular app
+handleUnknownRoute: "/floorplans/66/Summit%20Series/4056A", 404:""
+Route "/floorplans/66/Summit Series/4056A" not provided by angular apphandleUnknownRoute: "/floorplans/64/Marlette%20Special/3070", 404:""
+
+handleUnknownRoute: "/floorplans/68/Summit%20Series/2860A", 404:""
+handleUnknownRoute: "/floorplans/67/Summit%20Series/3066A", 404:""
+Route "/floorplans/64/Marlette Special/3070" not provided by angular app
+Route "/floorplans/67/Summit Series/3066A" not provided by angular app
+handleUnknownRoute: "/floorplans/71/Summit%20Series/2456A", 404:""
+Route "/floorplans/68/Summit Series/2860A" not provided by angular app
+handleUnknownRoute: "/floorplans/69/Summit%20Series/2856A", 404:""
+handleUnknownRoute: "/floorplans/72/Summit%20Series/2444A", 404:""
+handleUnknownRoute: "/floorplans/75/Canyon%20View/2872A", 404:""handleUnknownRoute: "/floorplans/73/Summit%20Series%20/2044A", 404:""
+
+handleUnknownRoute: "/floorplans/70/Summit%20Series/2848A", 404:""
+Route "/floorplans/71/Summit Series/2456A" not provided by angular app
+Route "/floorplans/70/Summit Series/2848A" not provided by angular app
+handleUnknownRoute: "/floorplans/74/Canyon%20View%20/1448A", 404:""
+Route "/floorplans/69/Summit Series/2856A" not provided by angular app
+Route "/floorplans/73/Summit Series /2044A" not provided by angular app
+handleUnknownRoute: "/floorplans/76/Canyon%20View/2860A", 404:""
+Route "/floorplans/72/Summit Series/2444A" not provided by angular app
+Route "/floorplans/75/Canyon View/2872A" not provided by angular app
+Route "/floorplans/74/Canyon View /1448A" not provided by angular app
+handleUnknownRoute: "/floorplans/79/Canyon%20View/2848A", 404:""
+handleUnknownRoute: "/floorplans/78/Canyon%20View/2856A", 404:""
+handleUnknownRoute: "/floorplans/80/Canyon%20View/2844A", 404:""
+Route "/floorplans/79/Canyon View/2848A" not provided by angular app
+Route "/floorplans/76/Canyon View/2860A" not provided by angular app
+Route "/floorplans/78/Canyon View/2856A" not provided by angular app
+Route "/floorplans/80/Canyon View/2844A" not provided by angular apphandleUnknownRoute: "/floorplans/77/Canyon%20View%20/2856D", 404:""
+
+Route "/floorplans/77/Canyon View /2856D" not provided by angular app
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************
+
+
+
+
+----------------------------------Using stored unhandled routes!.----------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************   To discover new routes in the angular app use "npx scully --scanRoutes"
+
+
+
+
+handleUnknownRoute: "/floorplans/19/Majestic/9584%20Everest%20Triple%20Wide", 404:""
+Route "/floorplans/19/Majestic/9584 Everest Triple Wide" not provided by angular app
+handleUnknownRoute: "/floorplans/27/Marlette%20Special/2868", 404:""
+Route "/floorplans/27/Marlette Special/2868" not provided by angular app
+handleUnknownRoute: "/floorplans/37/Columbia%20River/2017", 404:""
+Route "/floorplans/37/Columbia River/2017" not provided by angular app
+handleUnknownRoute: "/floorplans/38/Columbia%20River/2019", 404:""
+Route "/floorplans/38/Columbia River/2019" not provided by angular app
+handleUnknownRoute: "/floorplans/43/Columbia%20River/2025", 404:""
+handleUnknownRoute: "/floorplans/58/Columbia%20River/2005", 404:""
+Route "/floorplans/58/Columbia River/2005" not provided by angular app
+handleUnknownRoute: "/floorplans/54/Columbia%20River%20/2028", 404:""handleUnknownRoute: "/floorplans/39/Columbia%20River/2021", 404:""
+
+handleUnknownRoute: "/floorplans/56/Columbia%20River/2003", 404:""
+handleUnknownRoute: "/floorplans/59/Columbia%20River/2006", 404:""
+Route "/floorplans/59/Columbia River/2006" not provided by angular app
+Route "/floorplans/56/Columbia River/2003" not provided by angular app
+Route "/floorplans/43/Columbia River/2025" not provided by angular app
+handleUnknownRoute: "/floorplans/57/Columbia%20River/2004", 404:""
+Route "/floorplans/39/Columbia River/2021" not provided by angular appRoute "/floorplans/54/Columbia River /2028" not provided by angular app
+
+handleUnknownRoute: "/floorplans/44/Majestic%20/9585%20McKinley", 404:""
+Route "/floorplans/57/Columbia River/2004" not provided by angular app
+Route "/floorplans/44/Majestic /9585 McKinley" not provided by angular app
+handleUnknownRoute: "/floorplans/67/Summit%20Series/3066A", 404:""
+Route "/floorplans/67/Summit Series/3066A" not provided by angular app
+handleUnknownRoute: "/floorplans/60/Columbia%20River/2007", 404:""
+handleUnknownRoute: "/floorplans/64/Marlette%20Special/3070", 404:""
+handleUnknownRoute: "/floorplans/62/Columbia%20River/2010", 404:""
+Route "/floorplans/60/Columbia River/2007" not provided by angular app
+Route "/floorplans/64/Marlette Special/3070" not provided by angular app
+handleUnknownRoute: "/floorplans/61/Columbia%20River/2009", 404:""
+handleUnknownRoute: "/floorplans/66/Summit%20Series/4056A", 404:""
+handleUnknownRoute: "/floorplans/68/Summit%20Series/2860A", 404:""
+Route "/floorplans/61/Columbia River/2009" not provided by angular appRoute "/floorplans/66/Summit Series/4056A" not provided by angular app
+
+Route "/floorplans/68/Summit Series/2860A" not provided by angular app
+Route "/floorplans/62/Columbia River/2010" not provided by angular app
+handleUnknownRoute: "/floorplans/69/Summit%20Series/2856A", 404:""handleUnknownRoute: "/floorplans/70/Summit%20Series/2848A", 404:""
+
+Route "/floorplans/70/Summit Series/2848A" not provided by angular app
+Route "/floorplans/69/Summit Series/2856A" not provided by angular app
+handleUnknownRoute: "/floorplans/71/Summit%20Series/2456A", 404:""
+Route "/floorplans/71/Summit Series/2456A" not provided by angular app
+handleUnknownRoute: "/floorplans/75/Canyon%20View/2872A", 404:""
+handleUnknownRoute: "/floorplans/76/Canyon%20View/2860A", 404:""
+handleUnknownRoute: "/floorplans/72/Summit%20Series/2444A", 404:""
+Route "/floorplans/75/Canyon View/2872A" not provided by angular appRoute "/floorplans/76/Canyon View/2860A" not provided by angular app
+
+handleUnknownRoute: "/floorplans/74/Canyon%20View%20/1448A", 404:""
+handleUnknownRoute: "/floorplans/73/Summit%20Series%20/2044A", 404:""
+Route "/floorplans/74/Canyon View /1448A" not provided by angular app
+Route "/floorplans/73/Summit Series /2044A" not provided by angular app
+handleUnknownRoute: "/floorplans/79/Canyon%20View/2848A", 404:""
+Route "/floorplans/72/Summit Series/2444A" not provided by angular app
+handleUnknownRoute: "/floorplans/77/Canyon%20View%20/2856D", 404:""
+Route "/floorplans/79/Canyon View/2848A" not provided by angular app
+Route "/floorplans/77/Canyon View /2856D" not provided by angular app
+handleUnknownRoute: "/floorplans/78/Canyon%20View/2856A", 404:""
+handleUnknownRoute: "/floorplans/80/Canyon%20View/2844A", 404:""
+Route "/floorplans/78/Canyon View/2856A" not provided by angular app
+Route "/floorplans/80/Canyon View/2844A" not provided by angular app
+----------------------------------Using stored unhandled routes!.----------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************   To discover new routes in the angular app use "npx scully --scanRoutes"
+
+
+
+
+----------------------------------Using stored unhandled routes!.----------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************   To discover new routes in the angular app use "npx scully --scanRoutes"
+
+
+
+
+--------------------------------------------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"
+
+
+
+
+----------------------------------Using stored unhandled routes!.----------------------------------NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************   To discover new routes in the angular app use "npx scully --scanRoutes"
+
+
+
+

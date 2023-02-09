@@ -7,9 +7,15 @@ export const environment = {
   API: {
     BASE_URL: 'https://hhcwebapi.azurewebsites.net/api',
   },
-  fp: 'scullyfloorplans',
+  fp: 'floorplans',  //toggle endpoints: floorplans & scullyfloorplans(removes spaces)
 };
 
-//environment variable fp is used to toggle which API I call
-//api with floorplans end point returns spaces
-//api with scullyfloorplans replaces spaces with '-'
+
+//RESULTS:
+//when using 'scullyfloorplans', removes spaces in API for seriesName etc
+//e.g. Columbia River is delivered as Columbia-River
+//when using 'floorplans', deliver as Columbia River
+//prefer to use 'floorplans' so that API is not having to make adjustments for pathnames
+
+//https://hhcwebapi.azurewebsites.net/api/floorplans
+//https://hhcwebapi.azurewebsites.net/api/scullyfloorplans

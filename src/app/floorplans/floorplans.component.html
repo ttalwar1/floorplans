@@ -1,17 +1,24 @@
 <h1>list of floorplans</h1>
-<a
-  *ngFor="let d of floorplans"
-  class="card"
-  routerLink="/floorplans/{{ d.floorplanId }}/{{d.seriesName}}/{{ d.modelName }}"
->
-  <span
-    >{{ d.floorplanId }} {{ d.modelName }} {{ d.seriesName }}
+<ng-container *ngIf="floorplans$ | async as floorplans; else loading">
+  <a
+    *ngFor="let d of floorplans"
+    class="card"
+    routerLink="/floorplans/{{ d.floorplanId }}/{{ d.seriesName }}/{{
+      d.modelName
+    }}"
+  >
+    <span
+      >{{ d.floorplanId }} {{ d.modelName }} {{ d.seriesName }}
 
-    <img width="12%" [src]="d.thumbnailUrl" />
-  </span>
-  <!-- floorplanbox would go here -->
-</a>
-
+      <img width="12%" [src]="d.thumbnailUrl" />
+    </span>
+    <!-- floorplanbox would go here -->
+  </a>
+</ng-container>
 <!-- routerLink="/floorplans/{{ d.seriesName }}/{{ d.modelName }} " -->
 <!-- routerLink="/floorplans/{{ d.floorplanId }}/{{ d.modelName }} " -->
 <!-- routerLink="/floorplans/{{ d.floorplanId }}" -->
+
+<ng-template #loading>
+  <div>One moment..</div>
+</ng-template>
